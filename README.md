@@ -13,14 +13,14 @@ A python library for conducting verification for NWM/NextGen forecasts. It also 
 
 ```bash
 cd [NWM_VERF_ROOT]
-git clone -b development --recurse-submodules https://github.com/NGWPC/nwm-verf.git
+git clone -b development --recurse-submodules https://github.com/NOAA-OWP/nwm-verf.git
 ```
 
 2. clone nwm.eval (since nwm.verf requires nwm.eval as a dependency)
 
 ```bash
 cd [NWM_EVAL_ROOT]
-git clone -b development --recurse-submodules https://github.com/NGWPC/nwm-eval-mgr.git
+git clone -b development --recurse-submodules https://github.com/NOAA-OWP/nwm-eval-mgr.git
 ```
 
 3. create python venv

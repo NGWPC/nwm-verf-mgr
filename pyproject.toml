@@ -57,7 +57,7 @@ develop = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/NGWPC/nwm-verf.git"
+Homepage = "https://github.com/NOAA-OWP/nwm-verf.git"
 
 [tool.ruff]
 line-length = 88  

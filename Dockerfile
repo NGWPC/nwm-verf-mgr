@@ -1,5 +1,3 @@
-## TODO: replace with base image created under NGWPC-3223 ##
-## see: https://jira.nextgenwaterprediction.com/browse/NGWPC-3223
 FROM rockylinux:8
 
 
@@ -113,7 +111,7 @@ ENV PATH=${VIRTUAL_ENV}/bin:${PATH}
 ARG NWM_EVAL_MGR_TAG=development
 RUN set -eux; \
 	\
-    pip3 install "git+https://github.com/NGWPC/nwm-eval-mgr.git@${NWM_EVAL_MGR_TAG}" ; \
+    pip3 install "git+https://github.com/NOAA-OWP/nwm-eval-mgr.git@${NWM_EVAL_MGR_TAG}" ; \
     pip3 cache purge
 
 COPY . /ngen-app/nwm-verf/
